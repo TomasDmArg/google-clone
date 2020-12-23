@@ -1,0 +1,242 @@
+*{
+    box-sizing: border-box;
+    margin: 0mm;
+    padding: 0mm;
+    font-size: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html {
+    font-size: 62.5%;
+}
+
+header, ul {
+    display: inline-block;
+}
+ul li{
+    display: inline-block;
+    
+}
+ul{
+    position: absolute;
+    right: 3rem;
+}
+.login-btn{
+    margin-left: 1.5rem;
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    background: #4285f4;
+    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+    cursor: default;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    line-height: 2.8rem;
+    border-radius: 0.2rem;
+    padding-top: 0.65rem;
+    padding-bottom: 0.65rem;
+
+    text-decoration: none;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+
+}
+.link {
+    text-decoration: none;
+    color: #000000DE;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+.l2{
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+}
+.link:hover{
+    text-decoration: none;
+    color: #000000DE;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+    text-decoration: underline;
+}
+.apps-logo{
+    margin-bottom: -0.8rem;
+    vertical-align: text-bottom;
+    width: 30px;
+    height: 30px;
+    color: #757575;
+    padding: 0.3rem;
+    
+}
+.apps-logo:hover{
+    color: #000000DE;
+}
+@media only screen and (max-height: 768px){
+    .gl {
+        margin-top: 47px;
+    }
+    
+}
+@media only screen and (max-width: 768px){
+    body > header > nav > ul{
+        display: none;
+        visibility: hidden;
+    }
+}
+body > header > nav > ul{
+    display: absolute;
+    visibility: visible;
+}
+.gl {
+    height: 20.1rem;
+    /*margin-top: 89px;*/
+    padding-top: 2.1rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-flex;
+    text-align: center;
+    line-height: 18rem;
+    width: 50rem;
+}
+.gl-cont{
+    display: inline-flex;
+    text-align: center;
+
+}
+main{
+    text-align: center;
+}
+.gl-input{
+    width: 48.7rem;
+    height: 4rem;
+    border: none;
+}
+.gl-input:focus{
+    outline: none;
+    padding-right: 1.3rem;
+}
+.gl-input-container{
+    display: inline-block;
+}
+.search-svg{
+    width: 2rem;
+    height: 2rem;
+    vertical-align: middle;
+    color: #9aa0a6;
+    fill: currentColor;
+}
+.search{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    align-items: center;
+    text-align: start;
+    color: #9aa0a6;
+}
+.gl-all-input-container{
+    text-align: center;
+    display: inline-flex;
+    border-radius: 1999px;
+    border: 0.1rem solid #dfe1e5;
+    align-items: center;
+
+}
+.micro{
+    margin-left: 2rem;
+    text-align: end;
+    margin-right: 2rem;
+    align-items: center;
+    height: 2.4rem;
+}
+.micro svg{
+    width: 2.4rem;
+    height: 2.4rem;
+}
+.search-buttons a{
+    background-image: -webkit-linear-gradient(top,#f8f9fa,#f8f9fa);
+    background-color: #f8f9fa;
+    border-radius: 0.2rem;
+    padding-top: 0.65rem;
+    padding-bottom: 0.65rem;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3c4043;
+    font-size: 1.4rem;
+    margin-left: 0.4rem;
+    margin-right: 0.4rem;
+    padding: 1.1rem 1.6rem;
+    line-height: 2.7rem;
+    height: 3.6rem;
+    min-width: 5.4rem;
+}
+.search-buttons{
+    margin-top: 2.9rem;
+    margin-bottom: 2.9rem;
+}
+.by{
+    font-size: 1.3rem;
+}
+.by a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    margin-left: 1.3rem;
+    margin-right: 1.3rem;
+}
+.sep{
+    margin-top: 10.5rem
+}
+.footer-container{
+    margin-top: 16.3rem;
+    line-height: 4rem;
+    background-color: #f2f2f2;
+}
+.country{
+    border-top: 1px solid #dadce0;
+    border-bottom: 1px solid #dadce0;
+    background-color: #f2f2f2;
+}
+.country-text{
+    /*padding-left: 2.7rem;*/
+    margin-left: 3rem;
+    color: rgba(0,0,0,.54);
+    font-size: 1.4rem;
+}
+.links{
+    border-bottom: 1px solid #dadce0;
+    background-color: #f2f2f2;
+    height: 4rem;
+}
+.links div{
+    display: inline-flex;
+}
+
+.right{
+    text-align: right;
+    position: absolute;
+    right: 0; 
+}
+.left{
+    text-align: left;
+    position: absolute;
+    left: 0; 
+}
+.right a{
+    padding-right: 2.7rem;
+    /*margin-right: 3rem;*/
+    color: rgba(0,0,0,.54);
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+.right a:hover{
+    text-decoration: underline;
+}
+.left a:hover{
+    text-decoration: underline;
+}
+.left a{
+    padding-left: 2.7rem;
+    /*margin-left: 3rem;*/
+    color: rgba(0,0,0,.54);
+    font-size: 1.4rem;
+    text-decoration: none;
+}
